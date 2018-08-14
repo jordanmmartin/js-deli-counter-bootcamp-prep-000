@@ -1,5 +1,5 @@
+var peopleServed = 0
 function takeANumber(currentLine) {
-  var peopleServed = currentlLine.length
   peopleServed ++
   currentLine.push(peopleServed)
   var welcomeMessage =`Welcome, you are ticket number ${peopleServed} `
