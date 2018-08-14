@@ -22,10 +22,11 @@ function currentLine(peopleArray) {
   if (lineLength > 0){
     for(let i = 0; i < lineLength; i++) {
      var positionNumber = i + 1
+     peopleList = peopleList + positionNumber + '. ' + peopleArray[i]
      if (i < lineLength - 1) {
-       peopleList = peopleList + positionNumber + '. ' + peopleArray[i] + ', '
+        peopleList += ', '
      } else {
-       peopleList = peopleList + positionNumber + '. ' + peopleArray[i]
+       peopleList += ''
      }
     }
   } else {
