@@ -1,7 +1,8 @@
 function takeANumber(currentLine, newPerson) {
   currentLine.push(newPerson)
+  var peopleServed = []
   var newPersonPosition = currentLine.length
-  var welcomeMessage = 'Welcome, ' + newPerson + '. You are number ' + newPersonPosition + ' in line.'
+  var welcomeMessage =`Welcome, you are ticket number ${} `
   return welcomeMessage
 }
 
