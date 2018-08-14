@@ -25,9 +25,7 @@ function currentLine(peopleArray) {
      peopleList = peopleList + positionNumber + '. ' + peopleArray[i]
      if (i < lineLength - 1) {
         peopleList += ', '
-     } else {
-       peopleList += ''
-     }
+     } 
     }
   } else {
     return 'The line is currently empty.'
